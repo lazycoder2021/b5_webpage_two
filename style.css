@@ -572,6 +572,11 @@ nav
             width:450px;
         }
 
+        .form-control{
+            width:400px;
+            margin:auto;
+        }
+
         .section7 form .btn{
             margin:20px auto;
 
@@ -738,6 +743,12 @@ nav
 
     .user{
         margin-bottom:30px;
+    }
+
+    .user-wrapper{
+        width:300px;
+        margin:auto;
+        height:180px;
     }
 
     .social-links{
