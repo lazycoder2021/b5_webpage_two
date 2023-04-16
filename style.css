@@ -76,7 +76,8 @@ nav
 
     .wrapper{
         //border:1px solid red;
-        overflow:hidden;
+        //overflow-x:hidden;
+        height:auto;
     }
     .section1{
         width:500px;
@@ -290,9 +291,11 @@ nav
     .section4 {
         //background-color: yellow;
         height: auto;
-        width: 500px;
-        padding-top: 20px;
+        width: 480px;
+        padding-top: 0px;
         padding-bottom: 20px;
+        //border: 10px solid red;
+        margin:0px!important;
     }
 
     .section4-inner {
@@ -300,6 +303,7 @@ nav
         margin-top: 100px;
         padding: 0px!important;
         height: auto;
+        width:90%;
     }
 
     .section4-card-right {
@@ -490,6 +494,8 @@ nav
 @media only screen and (max-width:500px){
     .section6-inner{
         padding:0px!important;
+        height:220vh;
+        //border:1px solid blue;
     }
 
 
