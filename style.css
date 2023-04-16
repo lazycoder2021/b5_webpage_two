@@ -186,7 +186,7 @@ nav
     padding:0px!important;
     margin:0px!important;
     //transform:translateY(-100px);
-    background-image:url('images/2.JPG'); 
+    background-image:url('images/2.jpg'); 
     background-position:50% 50%; 
     background-repeat:no-repeat;
     background-size:cover;
@@ -330,7 +330,7 @@ nav
 }
 
 .section5 {
-    background-image: url('images/3.JPG');
+    background-image: url('images/3.jpg');
     background-size: cover;
     background-position: 50% 50%;
     background-repeat: no-repeat;
