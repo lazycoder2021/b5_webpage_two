@@ -76,7 +76,7 @@ nav
 
     .wrapper{
         //border:1px solid red;
-        overflow:hidden;
+        //overflow:hidden;
         height:auto;
     }
     .section1{
@@ -492,10 +492,14 @@ nav
 }
 
 @media only screen and (max-width:480px){
+    .section6{
+        height:auto;
+    }
+
     .section6-inner{
         padding:0px!important;
-        height:220vh;
-        //border:1px solid blue;
+        height:200vh;
+        border:0px solid blue;
     }
 
 
@@ -510,5 +514,73 @@ nav
         width:350px;
         margin:15px auto;
         border:1px solid black;
+        height:auto;
     }
+}
+
+.section7 {
+    height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(0deg, rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url('images/4.jpg');
+    background-size: cover;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.section7 h1{
+    color:white;
+    font-weight:900;
+    font-size:70px;
+}
+
+.section7 form{
+    display:flex;
+    width:500px;
+    //border:1px solid white;
+    margin-top:30px;
+}
+
+    .section7 .form-control {
+        border-radius: 25px;
+        padding:10px;
+    }
+
+    .section7 .btn {
+        width: 200px;
+        border-radius: 25px;
+        padding: 10px;
+        color:white;
+        font-weight:900;
+        text-transform:uppercase;
+        letter-spacing:1.2px;
+    }
+
+    @media only screen and (max-width:480px){
+        .section7{
+            height:100vh;
+            //:10px solid red;
+            text-align:center;
+        }
+
+        .section7 form{
+            flex-direction:column;
+            justify-content:center;
+            width:450px;
+        }
+
+        .section7 form .btn{
+            margin:20px auto;
+
+        }
+    }
+
+.section8 {
+    height: 100vh;
+    width: 100%;
+    background-color: #F2F2F2;
+    border:2px solid red;
 }
