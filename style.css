@@ -587,7 +587,7 @@ nav
     height: 100vh;
     width: 100%;
     background-color: #F2F2F2;
-    border:2px solid red;
+    //border:2px solid red;
     
 }
 
@@ -754,5 +754,97 @@ nav
     .social-links{
         width:450px;
         margin:auto;
+    }
+}
+
+
+.section9 {
+    background-image: linear-gradient(0deg, rgba(0,0,0,0.65), rgba(0,0,0,0.65)), url('images/5.jpg');
+    background-position: 50% 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width:100%;
+}
+
+.section9_inner {
+    height: 90vh;
+    //border: 1px solid white;
+    padding: 0px 100px !important;
+}
+
+.section9_wrapper_left,.section9_wrapper_right{
+    margin-top:50px;
+}
+
+.section9_wrapper_right{ /**************************fortesting***********************8*/
+    color:white;
+}
+
+.section9_wrapper_left { /**************************fortesting***********************8*/
+    color: white;
+}
+
+    .section9_wrapper_right .form-control {
+        background: transparent;
+        color: white;
+        border-top: none !important;
+        border-left: none !important;
+        border-right: none !important;
+        border-bottom: 2px solid white;
+        border-radius:0px!important;
+    }
+
+    .form-control:focus{
+        border:none!important;
+        outline:none!important;
+    }
+
+    .form-group{
+        //margin:20px auto;
+    }
+
+    .form-group label{
+        display:inline-block; 
+        margin:10px auto;
+    }
+
+.section9_wrapper_right .btn{
+    width:100%; 
+    text-transform:uppercase; 
+    letter-spacing:1.0px;
+    font-weight:900;
+    color:white;
+}
+
+
+.info-block{
+    //border:1px solid white;
+    margin-bottom:50px;
+}
+
+.info-block span{
+    display:inline-block;
+    margin-left:10px;
+}
+
+
+.section9_wrapper_left h1 {
+    color: white;
+    font-weight: 900;
+    margin-bottom:40px;
+}
+
+.section9_wrapper_left i {
+    color: #FFCA2C;
+}
+
+@media only screen and (max-width:480px){
+    .section9_inner{
+        height:160vh;
+    }
+
+    .section9_inner form{
+        margin:auto;
+        //padding:0px!important;
     }
 }
