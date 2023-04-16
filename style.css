@@ -76,7 +76,7 @@ nav
 
     .wrapper{
         //border:1px solid red;
-        //overflow-x:hidden;
+        overflow:hidden;
         height:auto;
     }
     .section1{
